@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MovingCompass" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfl-vW-LsD">
+                                <rect key="frame" x="16" y="579" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hi1-ib-OGv" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="571"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hi1-ib-OGv" firstAttribute="centerX" secondItem="bfl-vW-LsD" secondAttribute="centerX" id="2s2-XQ-6ob"/>
+                            <constraint firstItem="bfl-vW-LsD" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="5PR-P9-9XD"/>
+                            <constraint firstItem="bfl-vW-LsD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="6ap-38-vFJ"/>
+                            <constraint firstItem="bfl-vW-LsD" firstAttribute="top" secondItem="hi1-ib-OGv" secondAttribute="bottom" constant="8" symbolic="YES" id="EMh-QI-iRz"/>
+                            <constraint firstItem="bfl-vW-LsD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="M1B-rN-Zxn"/>
+                            <constraint firstItem="hi1-ib-OGv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Udb-gw-z4C"/>
+                            <constraint firstItem="hi1-ib-OGv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aRN-sv-bTT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="bfl-vW-LsD" id="Rvf-GD-B0l"/>
+                        <outlet property="mapView" destination="hi1-ib-OGv" id="ogN-wV-0A4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

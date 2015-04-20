@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7C3F081AE4C05500C28A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */; };
+		AA7C3F0A1AE4C05500C28A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F091AE4C05500C28A3C /* ViewController.swift */; };
+		AA7C3F0D1AE4C05500C28A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */; };
+		AA7C3F0F1AE4C05500C28A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */; };
+		AA7C3F121AE4C05500C28A3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */; };
+		AA7C3F1E1AE4C05500C28A3C /* MovingCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */; };
+		D23C83B9A1487D01D2458E67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CF1B47FC3A009743C0DCA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7C3F181AE4C05500C28A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7C3EFA1AE4C05500C28A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7C3F011AE4C05500C28A3C;
+			remoteInfo = MovingCompass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5417DBADF9C8113098689DB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA7C3F021AE4C05500C28A3C /* MovingCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7C3F061AE4C05500C28A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7C3F091AE4C05500C28A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA7C3F0C1AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA7C3F111AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovingCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7C3F1C1AE4C05500C28A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingCompassTests.swift; sourceTree = "<group>"; };
+		AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovingCompass-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE6CF1B47FC3A009743C0DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0E4D1FB637DD8B4A5271AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7C3EFF1AE4C05500C28A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C83B9A1487D01D2458E67 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7C3F141AE4C05500C28A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032CA8A84EE5E28503C31571 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0E4D1FB637DD8B4A5271AC /* Pods.debug.xcconfig */,
+				5417DBADF9C8113098689DB7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA7C3EF91AE4C05500C28A3C = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F041AE4C05500C28A3C /* MovingCompass */,
+				AA7C3F1A1AE4C05500C28A3C /* MovingCompassTests */,
+				AA7C3F031AE4C05500C28A3C /* Products */,
+				032CA8A84EE5E28503C31571 /* Pods */,
+				BF430F1D2127A8E958BADE6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7C3F031AE4C05500C28A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F021AE4C05500C28A3C /* MovingCompass.app */,
+				AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7C3F041AE4C05500C28A3C /* MovingCompass */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */,
+				AA7C3F091AE4C05500C28A3C /* ViewController.swift */,
+				AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */,
+				AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */,
+				AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */,
+				AA7C3F051AE4C05500C28A3C /* Supporting Files */,
+				AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */,
+			);
+			path = MovingCompass;
+			sourceTree = "<group>";
+		};
+		AA7C3F051AE4C05500C28A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F061AE4C05500C28A3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7C3F1A1AE4C05500C28A3C /* MovingCompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */,
+				AA7C3F1B1AE4C05500C28A3C /* Supporting Files */,
+			);
+			path = MovingCompassTests;
+			sourceTree = "<group>";
+		};
+		AA7C3F1B1AE4C05500C28A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C3F1C1AE4C05500C28A3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF430F1D2127A8E958BADE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE6CF1B47FC3A009743C0DCA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7C3F011AE4C05500C28A3C /* MovingCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7C3F211AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompass" */;
+			buildPhases = (
+				A888685A1D415467BDB48498 /* Check Pods Manifest.lock */,
+				AA7C3EFE1AE4C05500C28A3C /* Sources */,
+				AA7C3EFF1AE4C05500C28A3C /* Frameworks */,
+				AA7C3F001AE4C05500C28A3C /* Resources */,
+				B6CE22A00ECCF7480E85B68A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovingCompass;
+			productName = MovingCompass;
+			productReference = AA7C3F021AE4C05500C28A3C /* MovingCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7C3F161AE4C05500C28A3C /* MovingCompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7C3F241AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompassTests" */;
+			buildPhases = (
+				AA7C3F131AE4C05500C28A3C /* Sources */,
+				AA7C3F141AE4C05500C28A3C /* Frameworks */,
+				AA7C3F151AE4C05500C28A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7C3F191AE4C05500C28A3C /* PBXTargetDependency */,
+			);
+			name = MovingCompassTests;
+			productName = MovingCompassTests;
+			productReference = AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7C3EFA1AE4C05500C28A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brett Morgan";
+				TargetAttributes = {
+					AA7C3F011AE4C05500C28A3C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AA7C3F161AE4C05500C28A3C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AA7C3F011AE4C05500C28A3C;
+					};
+				};
+			};
+			buildConfigurationList = AA7C3EFD1AE4C05500C28A3C /* Build configuration list for PBXProject "MovingCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7C3EF91AE4C05500C28A3C;
+			productRefGroup = AA7C3F031AE4C05500C28A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7C3F011AE4C05500C28A3C /* MovingCompass */,
+				AA7C3F161AE4C05500C28A3C /* MovingCompassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7C3F001AE4C05500C28A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7C3F0D1AE4C05500C28A3C /* Main.storyboard in Resources */,
+				AA7C3F121AE4C05500C28A3C /* LaunchScreen.xib in Resources */,
+				AA7C3F0F1AE4C05500C28A3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7C3F151AE4C05500C28A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A888685A1D415467BDB48498 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CE22A00ECCF7480E85B68A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7C3EFE1AE4C05500C28A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7C3F0A1AE4C05500C28A3C /* ViewController.swift in Sources */,
+				AA7C3F081AE4C05500C28A3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7C3F131AE4C05500C28A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7C3F1E1AE4C05500C28A3C /* MovingCompassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7C3F191AE4C05500C28A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7C3F011AE4C05500C28A3C /* MovingCompass */;
+			targetProxy = AA7C3F181AE4C05500C28A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7C3F0C1AE4C05500C28A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7C3F111AE4C05500C28A3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7C3F1F1AE4C05500C28A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7C3F201AE4C05500C28A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7C3F221AE4C05500C28A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0E4D1FB637DD8B4A5271AC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MovingCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovingCompass/MovingCompass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7C3F231AE4C05500C28A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5417DBADF9C8113098689DB7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MovingCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovingCompass/MovingCompass-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AA7C3F251AE4C05500C28A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MovingCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingCompass.app/MovingCompass";
+			};
+			name = Debug;
+		};
+		AA7C3F261AE4C05500C28A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MovingCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingCompass.app/MovingCompass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7C3EFD1AE4C05500C28A3C /* Build configuration list for PBXProject "MovingCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7C3F1F1AE4C05500C28A3C /* Debug */,
+				AA7C3F201AE4C05500C28A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7C3F211AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7C3F221AE4C05500C28A3C /* Debug */,
+				AA7C3F231AE4C05500C28A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7C3F241AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7C3F251AE4C05500C28A3C /* Debug */,
+				AA7C3F261AE4C05500C28A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7C3EFA1AE4C05500C28A3C /* Project object */;
+}
