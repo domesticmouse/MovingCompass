@@ -10,21 +10,9 @@
 		AA7C3F081AE4C05500C28A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */; };
 		AA7C3F0A1AE4C05500C28A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F091AE4C05500C28A3C /* ViewController.swift */; };
 		AA7C3F0D1AE4C05500C28A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */; };
-		AA7C3F0F1AE4C05500C28A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */; };
 		AA7C3F121AE4C05500C28A3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */; };
-		AA7C3F1E1AE4C05500C28A3C /* MovingCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */; };
 		D23C83B9A1487D01D2458E67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CF1B47FC3A009743C0DCA /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AA7C3F181AE4C05500C28A3C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA7C3EFA1AE4C05500C28A3C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA7C3F011AE4C05500C28A3C;
-			remoteInfo = MovingCompass;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5417DBADF9C8113098689DB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -33,11 +21,7 @@
 		AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA7C3F091AE4C05500C28A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA7C3F0C1AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA7C3F111AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovingCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7C3F1C1AE4C05500C28A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingCompassTests.swift; sourceTree = "<group>"; };
 		AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovingCompass-Bridging-Header.h"; sourceTree = "<group>"; };
 		BE6CF1B47FC3A009743C0DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0E4D1FB637DD8B4A5271AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,13 +33,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23C83B9A1487D01D2458E67 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7C3F141AE4C05500C28A3C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7C3F041AE4C05500C28A3C /* MovingCompass */,
-				AA7C3F1A1AE4C05500C28A3C /* MovingCompassTests */,
 				AA7C3F031AE4C05500C28A3C /* Products */,
 				032CA8A84EE5E28503C31571 /* Pods */,
 				BF430F1D2127A8E958BADE6A /* Frameworks */,
@@ -86,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7C3F021AE4C05500C28A3C /* MovingCompass.app */,
-				AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +72,6 @@
 				AA7C3F071AE4C05500C28A3C /* AppDelegate.swift */,
 				AA7C3F091AE4C05500C28A3C /* ViewController.swift */,
 				AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */,
-				AA7C3F0E1AE4C05500C28A3C /* Images.xcassets */,
 				AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */,
 				AA7C3F051AE4C05500C28A3C /* Supporting Files */,
 				AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */,
@@ -109,23 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7C3F061AE4C05500C28A3C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA7C3F1A1AE4C05500C28A3C /* MovingCompassTests */ = {
-			isa = PBXGroup;
-			children = (
-				AA7C3F1D1AE4C05500C28A3C /* MovingCompassTests.swift */,
-				AA7C3F1B1AE4C05500C28A3C /* Supporting Files */,
-			);
-			path = MovingCompassTests;
-			sourceTree = "<group>";
-		};
-		AA7C3F1B1AE4C05500C28A3C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA7C3F1C1AE4C05500C28A3C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,24 +117,6 @@
 			productReference = AA7C3F021AE4C05500C28A3C /* MovingCompass.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA7C3F161AE4C05500C28A3C /* MovingCompassTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA7C3F241AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompassTests" */;
-			buildPhases = (
-				AA7C3F131AE4C05500C28A3C /* Sources */,
-				AA7C3F141AE4C05500C28A3C /* Frameworks */,
-				AA7C3F151AE4C05500C28A3C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA7C3F191AE4C05500C28A3C /* PBXTargetDependency */,
-			);
-			name = MovingCompassTests;
-			productName = MovingCompassTests;
-			productReference = AA7C3F171AE4C05500C28A3C /* MovingCompassTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,10 +128,6 @@
 				TargetAttributes = {
 					AA7C3F011AE4C05500C28A3C = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					AA7C3F161AE4C05500C28A3C = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = AA7C3F011AE4C05500C28A3C;
 					};
 				};
 			};
@@ -210,7 +145,6 @@
 			projectRoot = "";
 			targets = (
 				AA7C3F011AE4C05500C28A3C /* MovingCompass */,
-				AA7C3F161AE4C05500C28A3C /* MovingCompassTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,14 +156,6 @@
 			files = (
 				AA7C3F0D1AE4C05500C28A3C /* Main.storyboard in Resources */,
 				AA7C3F121AE4C05500C28A3C /* LaunchScreen.xib in Resources */,
-				AA7C3F0F1AE4C05500C28A3C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7C3F151AE4C05500C28A3C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,23 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA7C3F131AE4C05500C28A3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7C3F1E1AE4C05500C28A3C /* MovingCompassTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AA7C3F191AE4C05500C28A3C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA7C3F011AE4C05500C28A3C /* MovingCompass */;
-			targetProxy = AA7C3F181AE4C05500C28A3C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */ = {
@@ -426,40 +336,6 @@
 			};
 			name = Release;
 		};
-		AA7C3F251AE4C05500C28A3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MovingCompassTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingCompass.app/MovingCompass";
-			};
-			name = Debug;
-		};
-		AA7C3F261AE4C05500C28A3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MovingCompassTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingCompass.app/MovingCompass";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,15 +353,6 @@
 			buildConfigurations = (
 				AA7C3F221AE4C05500C28A3C /* Debug */,
 				AA7C3F231AE4C05500C28A3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA7C3F241AE4C05500C28A3C /* Build configuration list for PBXNativeTarget "MovingCompassTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA7C3F251AE4C05500C28A3C /* Debug */,
-				AA7C3F261AE4C05500C28A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
