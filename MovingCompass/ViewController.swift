@@ -11,7 +11,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
     mapView.settings.compassButton = true
   }
 
-  // MARK - GMSMapViewDelegate
+  // MARK: - GMSMapViewDelegate
   
   func mapView(mapView: GMSMapView!, idleAtCameraPosition position: GMSCameraPosition!) {
     label.text = "MapView idle"
