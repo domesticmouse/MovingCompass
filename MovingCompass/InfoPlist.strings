@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Lyft
+
+  Created by Martin Conte Mac Donell on 10/21/14.
+  Copyright (c) 2014 Lyft. All rights reserved.
+*/
+
+"NSContactsUsageDescription" = "LOCATION!!.";
+"NSLocationWhenInUseUsageDescription" = "This bug needs location permission";
