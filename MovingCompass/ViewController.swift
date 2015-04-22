@@ -8,7 +8,9 @@ class ViewController: UIViewController, GMSMapViewDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     mapView.delegate = self
+    mapView.myLocationEnabled = true
     mapView.settings.compassButton = true
+    mapView.settings.myLocationButton = true
   }
 
   // MARK: - GMSMapViewDelegate
