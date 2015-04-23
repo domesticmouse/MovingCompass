@@ -5,8 +5,7 @@
 This project is an attempt to replicate the issue documented at:
 [gmaps-api-issues/7889](https://code.google.com/p/gmaps-api-issues/issues/detail?id=7889)
 
-I'm not seeing it yet. Please fork this repro, and modify it until it
-displays the unresponsive Map UI, and send me a Pull Request with the changes.
+This sample now reproduces the bug reported above.
 
 To get this sample to work, first clone the repo in GitHub and checkout
 your clone:
