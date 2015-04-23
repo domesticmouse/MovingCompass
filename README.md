@@ -1,6 +1,6 @@
 # MovingCompass
 
-# [#7889](https://code.google.com/p/gmaps-api-issues/issues/detail?id=7889) After panning the map idleAtCameraPosition is not called while the compass is moving?
+# [#7889](https://code.google.com/p/gmaps-api-issues/issues/detail?id=7889) After panning the map idleAtCameraPosition is not called while the compass is moving
 
 This project is an attempt to replicate the issue documented at:
 [gmaps-api-issues/7889](https://code.google.com/p/gmaps-api-issues/issues/detail?id=7889)
