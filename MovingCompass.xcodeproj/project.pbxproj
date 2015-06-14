@@ -24,7 +24,6 @@
 		AA7C3F091AE4C05500C28A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA7C3F0C1AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7C3F111AE4C05500C28A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovingCompass-Bridging-Header.h"; sourceTree = "<group>"; };
 		BE6CF1B47FC3A009743C0DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0E4D1FB637DD8B4A5271AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +75,6 @@
 				AA7C3F0B1AE4C05500C28A3C /* Main.storyboard */,
 				AA7C3F101AE4C05500C28A3C /* LaunchScreen.xib */,
 				AA7C3F051AE4C05500C28A3C /* Supporting Files */,
-				AADEC1F11AE4C16E00BEB38F /* MovingCompass-Bridging-Header.h */,
 				267C39511AE636C7008D9810 /* InfoPlist.strings */,
 			);
 			path = MovingCompass;
@@ -323,7 +321,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MovingCompass/MovingCompass-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -338,7 +335,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MovingCompass/MovingCompass-Bridging-Header.h";
 			};
 			name = Release;
 		};
